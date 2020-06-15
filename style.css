@@ -163,6 +163,7 @@ and (-webkit-min-device-pixel-ratio: 2){
   font-size: 10vw;
   color: lightgrey;
   text-align: center;
+  font-family: myFirstFont;
 }
 .Main-Heading2{
   position: absolute;
@@ -171,4 +172,10 @@ and (-webkit-min-device-pixel-ratio: 2){
   font-size: 2vw;
   color: lightgrey;
   text-align: center;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(edosz.ttf);
+  font-weight: 300;
 }
