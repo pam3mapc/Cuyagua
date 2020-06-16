@@ -127,53 +127,30 @@ a.active, a:hover{
 
 .bg2{
   background-color: #1F201D;
-  height: 65vh;
-  width: 70%;
-  margin-left: 15%;
-  margin-top: 1%;
+  height: 25vh;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 0.5%;
   border: 1px;
   border-style: outset;
   border-color: #8b5025;
   border-radius: 10px;
-
-  font-size: 1.5vw;
+  font-size: 1.7vw;
   padding: 10px;
   color: lightgrey;
-  text-align: center;
-  /* justify-content: center; */
+  /* text-align: center; */
   font-family: myFirstFont;
   opacity: 0.8;
 }
 
-.About-content{
+/* .About-content{
   padding: 10px;
   opacity: 1;
-}
-.buttons{
-  /* display: flex; */
-  margin-top: 1%;
-  margin-left: 38%;
-}
-.button{
-  background-color: #1F201D;
-  padding: 10px;
-  color: lightgrey;
-  text-align: center;
-  justify-content: center;
-  font-family: myFirstFont;
-  font-size: 1.5vw;
-  margin-left: 5%;
-}
-.button:hover{
-  opacity: 0.7;
-  cursor: grab;
-}
-
-
+} */
 
 .Main-Heading2{
   font-size: 3vw;
-  padding-top: 1%;
+  padding-top: 0.5%;
   font-family: myFirstFont;
   color: lightgrey;
   text-align: center;
@@ -185,4 +162,19 @@ a.active, a:hover{
   font-family: myFirstFont;
   src: url(edosz.ttf);
   font-weight: 300;
+}
+
+
+img{
+  height:11vw;
+  border-radius: 5px;
+  margin-left: 9%;
+  margin-top: 2%;
+}
+p{
+  margin-left: 10%;
+  margin-top: 7%;
+}
+.row {
+  display: flex;
 }
