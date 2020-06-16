@@ -178,7 +178,7 @@ a.active, a:hover{
 #map{
   width: 118vh;
   height: 80vh;
-  margin: 5% 20%;
+  margin: -5% 20%;
   border-style: solid;
   border-radius: 5px;
   border-width: 5px;
