@@ -21,7 +21,7 @@ window.addEventListener("load", function() {
 
 })
 
-let leftgear = document.getElementById("leftgear");
+/*let leftgear = document.getElementById("leftgear");
 
 window.addEventListener("scroll", function() {
     leftgear.style.transform = "rotate("+window.pageYOffset+"deg)";
@@ -33,4 +33,4 @@ var wavesurfer = WaveSurfer.create({
     progressColor: 'purple'
 });
 
-wavesurfer.load('road.mp3');
+wavesurfer.load('road.mp3');*/
