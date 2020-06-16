@@ -78,6 +78,9 @@ a.active, a:hover{
   .checkbtn{
     display: block;
   }
+  .bg1 .bg2{
+    height: 35vh;
+  }
   ul {
     position: fixed;
     width: 100%;
@@ -135,11 +138,11 @@ a.active, a:hover{
   padding: 10px;
   color: lightgrey;
   text-align: center;
-  justify-content: center;
+  /* justify-content: center; */
   font-family: myFirstFont;
   opacity: 0.8;
-  /* backface-visibility: 0.5; */
 }
+
 .About-content{
   padding: 10px;
   opacity: 1;
@@ -164,27 +167,7 @@ a.active, a:hover{
   cursor: grab;
 }
 
-.DetailHeading2{
-  font-size: 2vw;
-  padding-top: 10vh;
-}
 
-.DetailHeading3{
-  font-size: 2vw;
-  justify-content: center;
-  padding-top: 4vh;
-}
-
-#map{
-  width: 64%;
-  height: 83%;
-  margin: 3% 17%;
-  border-style: solid;
-  border-radius: 5px;
-  border-width: 5px;
-  border-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
 .Main-Heading2{
   font-size: 3vw;
