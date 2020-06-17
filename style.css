@@ -120,6 +120,8 @@ a.active, a:hover{
   top:71%;
   left: 47%;
   color: white;
+  animation-name: my-move;
+  animation-duration: 4.5s;
 }
 .playerbutton{
   position: absolute;
