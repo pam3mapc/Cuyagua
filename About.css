@@ -149,6 +149,13 @@ a.active, a:hover{
   padding: 10px;
   opacity: 1;
 }
+.About-content2{
+  padding: 20px;
+  opacity: 1;
+font-family: 'Raleway', sans-serif;
+font-size: 90%;
+}
+
 .buttons{
   /* display: flex; */
   margin-top: 1%;
