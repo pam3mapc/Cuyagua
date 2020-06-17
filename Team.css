@@ -178,3 +178,14 @@ p{
 .row {
   display: flex;
 }
+.footer{
+  background-color: black;
+  background-size: cover;
+  height: 7vh;
+  border-top: 1px solid #8b5025;
+  font-size: 1.3vw;
+  padding: 10px;
+  color: lightgrey;
+  text-align: center;
+  font-family: myFirstFont;
+}
