@@ -1,0 +1,202 @@
+*{
+  padding:0;
+  margin:0;
+  text-decoration: none;
+  list-style:none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  /* font-family: montserrat; */
+}
+nav{
+  background: #1F201D;
+  height:80px;
+  width:100%;
+  font-family: myFirstFont;
+}
+label.logo{
+  color:#8b5025;
+  font-size: 50px;
+  line-height: 80px;
+  padding: 0 50px;
+  /* font-weight: bold; */
+}
+
+nav ul{
+  float:right;
+  margin-right:20px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color:white;
+  font-size:17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform:uppercase;
+}
+
+a.active, a:hover{
+  background: #2D2C2C;
+  transition: .5s;
+}
+
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float:right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display:none;
+}
+#check{
+  display: none;
+}
+
+@media (max-width:952px){
+  label.logo{
+    font-size:30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  svg{
+    width: 50%;
+    height:50%;
+    border: none;
+  }
+}
+@media (max-width:858px){
+  .checkbtn{
+    display: block;
+  }
+  .bg1 .bg2{
+    height: 35vh;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #1F201D;
+    top:80px;
+    left:-100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display:block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size:20px;
+  }
+  a:hover, a.active{
+    background: none;
+    color:#8b5025;
+  }
+  object{
+    border: 2px solid black;
+  }
+  #check:checked ~ ul{
+    left:0;
+    /* top:80px; */
+    height:100vh;
+    bottom:0;
+  }
+  svg{
+    width: 50%;
+    height:50%;
+  }
+}
+
+.bg1{
+  background: url("Background1.jpg") no-repeat;
+  background-size: cover;
+  /* height: 100%; */
+  height: calc(100vh - 80px);
+}
+
+.bg2{
+  background-color: #1F201D;
+  height: 65vh;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 1%;
+  border: 1px;
+  border-style: outset;
+  border-color: #8b5025;
+  border-radius: 10px;
+
+  font-size: 1.5vw;
+  padding: 10px;
+  color: lightgrey;
+  text-align: center;
+  /* justify-content: center; */
+  font-family: myFirstFont;
+  opacity: 0.8;
+}
+
+.About-content{
+  padding: 10px;
+  opacity: 1;
+}
+.Main-Heading2{
+  font-size: 3vw;
+  padding-top: 1%;
+  font-family: myFirstFont;
+  color: lightgrey;
+  text-align: center;
+  animation-name: my-move;
+  animation-duration: 4s;
+}
+.Main-Heading3{
+  font-size: 2vw;
+  padding-top: 1%;
+  font-family: myFirstFont;
+  color: lightgrey;
+  text-align: center;
+  animation-name: my-move;
+  animation-duration: 4s;
+}
+.grid-container1{
+  display: flex;
+  justify-content:center;
+}
+.grid1-item{
+  flex-direction: row;
+  margin: 2% 5%;
+}
+.grid-container2{
+  display: flex;
+  justify-content:center;
+}
+.grid2-item{
+  flex-direction: row;
+  margin: 2% 5%;
+
+}
+/* .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 50px;
+  grid-column-gap: 50px;
+  padding: 10px;
+  padding-top: 40px;
+}
+.grid-item{
+  padding-right: 100px;
+} */
+@font-face {
+  font-family: myFirstFont;
+  src: url(edosz.ttf);
+  font-weight: 300;
+}
