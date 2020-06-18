@@ -17,5 +17,8 @@ We are happy about the product and the process of a collective effort that invol
 
 (Pam) This project was a dream for me and now it’s materialized. Cuyagua will always be on the web, close to me… until I can come back. Thank you guys!
 
-Something I could have improved is the discrepancy between the words translated and the written script itself in the first two tracks. By the time we got the feedback I had already all of the translation recordings and I decided to proceed and finish the remaining 4 tracks which have an improved mixing between the translation and the interviewed voices. I could have changed the script but in respect of other people’s words I decided to keep it as close as I could from the original message. (You can always choose not to read if it gets confusing!! haha).
+Something I could have improved is the discrepancy between the words translated and the written script itself in the first two tracks. By the time we got the feedback I had already all of the translation recordings and I decided to proceed and finish the remaining 4 tracks which have an improved mixing between the translation and the interviewed voices. I could have changed the script but in respect of other people’s words I decided to keep it as close as I could from the original message. (You can always choose not to read if it gets confusing!! jk haha).
+
+Given the time constraint we did not change the nature of the script's interactivity as it was suggested by our peers (where we could have highlighted the line being said (very time consuming and we have to be realistic) or hidden the transcript so only people who need it would access to it. This solution seems more time accessible. This weekend we will work on it! (in this very moment we are preparing for project 4). 
+
 
